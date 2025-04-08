@@ -178,10 +178,12 @@ const Navbar = () => {
       </div>
       {/* Mobile device  */}
       <div className="flex md:hidden items-center justify-between px-4 h-full">
-        <img src="/AvishkarLogo.jpg" alt="logo" className="w-12 h-12" />
-        <Link to="/">
-          <h1 className="font-extrabold text-2xl">E-learning</h1>
-        </Link>
+        <div className="flex items-center">
+          <img src="/AvishkarLogo.jpg" alt="logo" className="w-12 h-12" />
+          <Link to="/">
+            <h1 className="font-extrabold text-2xl">E-learning</h1>
+          </Link>
+        </div>
         <MobileNavbar user={user} pendingCount={pendingCount} countFetched={countFetched}/>
       </div>
     </div>
