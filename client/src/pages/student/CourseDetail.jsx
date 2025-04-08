@@ -412,7 +412,7 @@ const CourseDetail = () => {
                             <Button 
                               variant="ghost" 
                               size="sm"
-                              onClick={() => navigate(`/course-progress/${courseId}/lecture/${lecture._id}`)}
+                              onClick={() => navigate(`/course-progress/${courseId}/lecture/${lecture._id}/view`)}
                               className="dark:text-gray-200 dark:hover:bg-gray-700"
                             >
                               {hasAccess ? "Start" : "Preview"}
