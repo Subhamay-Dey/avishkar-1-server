@@ -217,7 +217,10 @@ const MobileNavbar = ({user, pendingCount, countFetched}) => {
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <SheetHeader className="flex flex-row items-center justify-between mt-2">
-          <SheetTitle> <Link to="/">E-Learning</Link></SheetTitle>
+          <SheetTitle> 
+          <img src="/AvishkarLogo.jpg" alt="logo" className="w-12 h-12" />
+            <Link to="/">E-Learning</Link>
+          </SheetTitle>
           <DarkMode />
         </SheetHeader>
         <Separator className="mr-2" />
