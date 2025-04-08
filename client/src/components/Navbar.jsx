@@ -207,13 +207,7 @@ const MobileNavbar = ({user, pendingCount, countFetched}) => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button
-          size="icon"
-          className="rounded-full hover:bg-gray-200"
-          variant="outline"
-        >
-          <image src="/WebsiteLogo.png" alt="logo" className="w-6 h-6" />
-        </Button>
+
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <SheetHeader className="flex flex-row items-center justify-between mt-2">
