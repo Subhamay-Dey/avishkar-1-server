@@ -178,7 +178,7 @@ const Navbar = () => {
       </div>
       {/* Mobile device  */}
       <div className="flex md:hidden items-center justify-between px-4 h-full">
-        <div className="flex items-center">
+        <div className="flex">
           <img src="/AvishkarLogo.jpg" alt="logo" className="w-12 h-12" />
           <Link to="/">
             <h1 className="font-extrabold text-2xl">E-learning</h1>
