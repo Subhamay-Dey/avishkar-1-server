@@ -212,7 +212,7 @@ const MobileNavbar = ({user, pendingCount, countFetched}) => {
           className="rounded-full hover:bg-gray-200"
           variant="outline"
         >
-          <Menu />
+          <image src="/WebsiteLogo.png" alt="logo" className="w-6 h-6" />
         </Button>
       </SheetTrigger>
       <SheetContent className="flex flex-col">
