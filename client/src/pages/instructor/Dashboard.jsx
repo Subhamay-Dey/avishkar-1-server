@@ -721,7 +721,7 @@ const InstructorDashboard = () => {
                             </Avatar>
                             <div>
                               <p className="font-medium">{request.user?.name || 'Unknown User'}</p>
-                              <p className="text-sm text-gray-500">{request.user?.phone || 'No phone'}</p>
+                              <p className="text-sm text-gray-500">{request.user?.phone_number || 'No phone'}</p>
                               <p className="text-sm text-gray-500">{request.user?.email || 'No email'}</p>
                             </div>
                           </div>

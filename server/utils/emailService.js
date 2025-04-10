@@ -6,8 +6,8 @@ dotenv.config();
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'sakethphaneendra@gmail.com',
-        pass: 'ldezdibdkbzxaacn' // Using the EMAIL_PASSWORD from .env
+        user: 'sunil.avishkar.academy@gmail.com',
+        pass: 'gbihbsyghphoxvlz' // Using the EMAIL_PASSWORD from .env
     }
 });
 
@@ -25,7 +25,7 @@ export const sendOTPEmail = async (email, otp) => {
     console.log('Using OTP:', otp);
     
     const mailOptions = {
-        from: '"E-Learning Platform" <sakethphaneendra@gmail.com>',
+        from: '"E-Learning Platform" <sunil.avishkar.academy@gmail.com>',
         to: email,
         subject: 'Email Verification OTP',
         html: `
